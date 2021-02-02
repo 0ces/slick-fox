@@ -84,16 +84,30 @@ tab:not([selected]):hover .tab-background {
 }
 
 .titlebar-button > .toolbarbutton-icon {
-  height: 17px !important;
-  min-height: 17px !important;
-  width: 17px !important;
-  min-width: 17px !important;
+  height: 10px !important;
+  min-height: 10px !important;
+  width: 10px !important;
+  min-width: 10px !important;
 }
 
 .titlebar-button {
-  padding-left: 10px !important;
+  /* padding-left: 10px !important;
   padding-right: 15px !important;
-  padding-top: 10px !important;
+  padding-top: 10px !important; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px !important;
+  max-height: 20px !important;
+  width: 20px !important;
+  max-width: 20px !important;
+  padding: 0 !important;
+  margin: 8px 5px !important;
+  border-radius: 50% !important;
+}
+
+.titlebar-button:hover {
+
 }
 
 #urlbar {
@@ -251,7 +265,7 @@ tab:not([selected]):hover .tab-background {
 }
 
 #TabsToolbar > .titlebar-buttonbox-container {
-  margin-right: 20px;
+  margin: 0px 20px;
 }
 
 #urlbar,
