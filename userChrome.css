@@ -8,7 +8,7 @@
   --urlbar-height: 32px !important;
   --urlbar-toolbar-height: 40px !important;
   --moz-hidden-unscrollable: scroll !important;
-  --toolbarbutton-border-radius: 15px !important;
+  --toolbarbutton-border-radius: 10px !important;
   --tabs-border-color: transparent;
 }
 
@@ -16,8 +16,8 @@
 #TabsToolbar .tabbrowser-tab .tab-stack,
 #TabsToolbar .tabbrowser-tab .tab-background,
 #TabsToolbar .tabbrowser-tab .tab-content {
-  border-top-left-radius: 10px !important;
-  border-top-right-radius: 10px !important;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
   margin-top: 0px;
   height: 36px;
   text-align: center;
